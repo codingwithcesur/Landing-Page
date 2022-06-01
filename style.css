@@ -7,4 +7,17 @@
 }
 .header-logo {
   width: 100px;
+  margin: 15px 150px;
+}
+.header-links {
+  display: flex;
+  margin-left: auto;
+  margin-right: 150px;
+}
+.header-links a {
+  color: #e5e7eb;
+  text-decoration-line: none;
+  font-size: 18px;
+  list-style-type: none;
+  margin: 8px;
 }
