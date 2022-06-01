@@ -1,22 +1,30 @@
 .header {
   display: flex;
   background-color: #1f2937;
+  flex-direction: column;
+  font-family: "roboto", arial, helvetica;
+}
+.header-top {
+  display: flex;
+  margin-bottom: 50px;
 }
 .header-logo img {
   width: 100%;
   height: auto;
 }
+.logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
 .header-logo {
   display: flex;
-  width: 100px;
-  margin: 15px 150px;
+  width: 70px;
+  margin: 15px 0px 0px 150px;
   align-items: center;
 }
 .header-links {
   display: flex;
-  margin-left: auto;
-  margin-right: 150px;
-  align-items: center;
+  margin: 15px 150px 0px auto;
 }
 .header-links a {
   color: #e5e7eb;
@@ -24,4 +32,17 @@
   font-size: 18px;
   list-style-type: none;
   margin: 8px;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+.header-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+.header-para {
+  font-size: 18px;
+  color: #e5e7eb;
 }
