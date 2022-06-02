@@ -86,6 +86,7 @@ body {
 .info-container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 180px;
 }
 .info-title {
   display: flex;
@@ -109,4 +110,24 @@ body {
 }
 .info-box p {
   font-size: 18px;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 80px 100px 80px 100px;
+  margin-top: 100px;
+  align-items: center;
+}
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+}
+.quote-text h3 {
+  font-style: italic;
+  font-weight: lighter;
+}
+.quote-text h2 {
+  margin-left: 700px;
+  font-weight: 800;
 }
