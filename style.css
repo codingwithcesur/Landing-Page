@@ -170,3 +170,14 @@ body {
 .footer-text {
   font-size: 24px;
 }
+.about {
+  background-color: #050b2e;
+  align-items: center;
+}
+.about-para {
+  margin: 30px 100px;
+}
+.about-button {
+  text-decoration: none;
+  color: #0c470a;
+}
