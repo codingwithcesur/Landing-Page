@@ -131,3 +131,32 @@ body {
   margin-left: 700px;
   font-weight: 800;
 }
+.sign-up {
+  display: flex;
+  margin: 80px 100px 50px 250px;
+  justify-content: center;
+  background-color: #3882f6;
+  padding: 30px;
+  color: #f9faf8;
+  height: 80px;
+  width: 900px;
+  border-radius: 10px;
+}
+.sign-up-text {
+  margin-left: 50px;
+  align-items: center;
+}
+.sign-up-text h3 {
+  font-size: 24px;
+  margin: 3px;
+}
+.sign-up-text p {
+  font-size: 18px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+.sign-up-button {
+  border-color: #f9faf8;
+  margin-left: auto;
+  align-self: center;
+}
