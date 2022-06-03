@@ -133,7 +133,7 @@ body {
 }
 .sign-up {
   display: flex;
-  margin: 80px 100px 50px 250px;
+  margin: 80px 100px 80px 250px;
   justify-content: center;
   background-color: #3882f6;
   padding: 30px;
@@ -159,4 +159,14 @@ body {
   border-color: #f9faf8;
   margin-left: auto;
   align-self: center;
+}
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text {
+  font-size: 24px;
 }
